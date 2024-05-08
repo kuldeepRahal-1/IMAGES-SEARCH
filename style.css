@@ -1,0 +1,84 @@
+body{
+  background-color: rgba(249, 230, 184, 0.735);
+  margin: 0;
+}
+#Navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    order: -1; /* Moves the button to the left */
+    margin-right: 10px; /* Adds space between button and input */
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input {
+    width: 200px; /* Adjust width as needed */
+    border-radius: 10px;
+    padding: 5px;
+}
+/* main section*/
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerdiv{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.innerdiv img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.innerdiv img {
+    transition: transform 0.3s ease;
+  }
+  
+  .innerdiv:hover img {
+    transform: scale(1.4);
+  }
+
+#heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-size: 72px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    background-color:rgba(246, 211, 130, 0.708);
+    margin-top:15px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+#imgContainer{
+    padding: 2px;
+}
+
+.car-image{
+    height: 250px;
+    width: 250px;
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
