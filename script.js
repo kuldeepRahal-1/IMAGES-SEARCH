@@ -1,4 +1,4 @@
-lconst btn = document.getElementById("btn");
+const btn = document.getElementById("btn");
 const input = document.getElementById("input");
 const imgContainer = document.getElementById("imgContainer");
 
