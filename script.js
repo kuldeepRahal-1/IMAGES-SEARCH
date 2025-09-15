@@ -59,7 +59,8 @@ input.addEventListener("keypress", async (event) => {
 
 // Infinite Scroll
 window.addEventListener("scroll", async () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100 && !isFetching) {
+if(!query)return;
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight-100 && !isFetching) {
         isFetching = true;
         currentPage++;
         const images = await fetchCarImages(query, currentPage);
